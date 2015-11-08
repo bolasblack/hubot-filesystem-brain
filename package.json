@@ -1,0 +1,11 @@
+{
+  "name": "hubot-filesystem-brain",
+  "version": "0.0.1",
+  "description": "A hubot script to persist hubot's brain using filesystem",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "c4605 <bolasblack@gmail.com>",
+  "license": "MIT"
+}
