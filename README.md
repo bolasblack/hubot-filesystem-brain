@@ -10,7 +10,7 @@ See [`src/filesystem-brain.coffee`](src/filesystem-brain.coffee) for full docume
 
 In hubot project repo, run:
 
-`npm install hubot-filesystem-brain --save`
+`npm install bolasblack/hubot-filesystem-brain --save`
 
 Then add **hubot-filesystem-brain** to your `external-scripts.json`:
 
