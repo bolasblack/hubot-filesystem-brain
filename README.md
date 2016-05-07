@@ -4,7 +4,7 @@ A hubot script to persist hubot's brain using filesystem
 
 Forked from [hubot-redis-brain](https://github.com/hubot-scripts/hubot-redis-brain)
 
-See [`src/index.coffee`](src/index.coffee) for full documentation.
+See [`index.coffee`](index.coffee) for full documentation.
 
 ## Installation
 
