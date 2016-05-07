@@ -16,7 +16,7 @@ module.exports = (robot) ->
 
   robot.brain.setAutoSave false
 
-  content = fs.readFileSync BRAIN_FILE_PATH, 'utf8'
+  try content = fs.readFileSync BRAIN_FILE_PATH, 'utf8'
 
   if content
     robot.logger.info "hubot-filesystem-brain: Data for hubot brain retrieved from File System"
