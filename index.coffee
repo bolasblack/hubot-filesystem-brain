@@ -2,7 +2,7 @@
 #   Persist hubot's brain to filesystem
 #
 # Configuration:
-#   STORAGE_FILE_PATH
+#   HUBOT_STORAGE_FILE_PATH
 #   default value: /hubot/root/folder
 #
 # Commands:
@@ -12,7 +12,7 @@ fs = require 'fs'
 sysPath = require 'path'
 
 module.exports = (robot) ->
-  BRAIN_FILE_PATH = sysPath.join __dirname, '../../', 'hubot_brain.json'
+  BRAIN_FILE_PATH = process.env.HUBOT_BRAIN_FILE_PATH or sysPath.join(__dirname, '../../', 'hubot_brain.json')
 
   robot.brain.setAutoSave false
 
